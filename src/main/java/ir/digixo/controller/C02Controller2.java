@@ -9,8 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class C02Controller2 {
 
     @GetMapping("/m1")
-    public String m1()
-    {
+    public String m1() {
         return "home";
     }
 }

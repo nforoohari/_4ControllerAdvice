@@ -5,15 +5,15 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @ControllerAdvice
-@RequestMapping("/")
-//global controller
+// Global controller
 // @ExceptionHandler,
 // @InitBinder, or
 // @ModelAttribute methods to be shared across multiple @Controller classes.
+@RequestMapping("/")
 public class C03ControllerAdvice {
+
     @ModelAttribute(name = "p")
-    public String addAttribute()
-    {
-        return "mahsa";
+    public String addAttribute() {
+        return "Bita";
     }
 }
